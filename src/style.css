@@ -4,7 +4,7 @@ body {
   margin: 0;
 }
 
-header {
+.header {
   display: flex;
   padding: 0 50px;
   justify-content: space-between;
@@ -24,7 +24,7 @@ header {
 
 .is-active::after {
     content: "";
-    background-color: var(--blue, #00acdc);
+    background-color: var(--blue);
     border-radius: 2px;
     width: 100%;
     height: 4px;
