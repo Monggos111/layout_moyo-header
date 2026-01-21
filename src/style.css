@@ -16,11 +16,13 @@ header {
   margin: 10px 0 10px 50px;
 }
 
-.navbar {
+.nav__list {
   width: 500;
   size: 12px;
   flex: auto;
   margin: 20px 50px 0 0;
+  list-style: none;
+  padding: 0;
   display: flex;
   justify-content: flex-end;
 }
@@ -52,4 +54,13 @@ header {
   color: inherit;
   margin-right: 20px;
   white-space: nowrap;
+}
+
+.nav__item{
+  margin-left: 20px;
+}
+
+.navbar {
+  align-items: center;
+  margin-left: auto;
 }
